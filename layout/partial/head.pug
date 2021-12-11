@@ -19,7 +19,14 @@ meta(content="telephone=no",name="format-detection")
 
 meta(name="renderer",content="webkit")
 link(rel="short icon", href="/images/favicon.png",type="image/x-icon")
+//- 样式
 link(rel="stylesheet", href= url_for('css/style.css'))
 link(rel="stylesheet", href= url_for('css/blog_basic.css'))
-link(rel="stylesheet", href= url_for('css/font-awesome.min.css'))
+//- font-awesome图标
+link(rel="stylesheet", href= url_for('css/fontAwesome/font-awesome.min.css'))
+//- rss
 link(rel="alternate" type="application/atom+xml" title="ATOM 1.0" href="/atom.xml")
+//- google字体
+link(rel="preconnect", href="https://fonts.googleapis.com")
+link(rel="preconnect", href="https://fonts.gstatic.com" crossorigin)
+link(rel="stylesheet", href="https://fonts.googleapis.com/css2?family=Noto+Sans+SC:wght@100;300;400&display=swap")
