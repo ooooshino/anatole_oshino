@@ -1,0 +1,44 @@
+/*for archive*/
+.archive {
+  width: 100%;
+}
+
+.list-with-title {
+  font-size: 14px;
+  margin: 30px;
+  padding: 0;
+}
+
+.list-with-title li {
+  list-style-type: none;
+  padding: 0;
+}
+
+.list-with-title .listing-title {
+  font-size: 24px;
+  color: #666666;
+  font-weight: 600;
+  line-height: 2.2em;
+}
+
+.list-with-title .listing {
+  padding: 0;
+}
+
+.list-with-title .listing .listing-post {
+  padding-bottom: 5px;
+}
+
+.list-with-title .listing .listing-post .post-time {
+  float: right;
+  color: #c5c5c5;
+}
+
+.list-with-title .listing .listing-post a {
+  color: #8f8f8f;
+}
+
+.list-with-title .listing .listing-post a:hover {
+  color: #4786d6;
+}
+/*# sourceMappingURL=archive.css.map */

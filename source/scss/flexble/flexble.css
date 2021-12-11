@@ -1,0 +1,37 @@
+@media screen and (max-width: 960px) {
+  .sidebar {
+    width: 100%;
+    position: absolute;
+    border-right: none;
+    z-index: 1;
+  }
+  .sidebar .logo-title {
+    padding-top: 120px;
+  }
+  .sidebar .logo-title .title img {
+    width: 100px;
+  }
+  .sidebar .logo-title .title h3 {
+    font-size: 20px;
+  }
+  .page-top {
+    width: 100%;
+  }
+  .post-title h3 {
+    line-height: 1.6;
+  }
+  .content {
+    margin-top: 420px;
+    width: 100%;
+    z-index: 2;
+    position: absolute;
+  }
+  .footer {
+    display: none;
+  }
+  .share {
+    display: -ms-grid;
+    display: grid;
+  }
+}
+/*# sourceMappingURL=flexble.css.map */
