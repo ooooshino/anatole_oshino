@@ -1,20 +1,20 @@
 # Blog
-keywords: Hexo,HTML,CSS,android,Linux
-author: Author Name,name@example.com
-description: Nothing lasts forever.
-avatar: /images/favicon.png
+keywords: ooooshino,两仪猿,CSS,web
+author: ooooshino,tangyusen9@gmail.com
+description: '人一直在成长，大脑不能记下每时每刻，但这里可以'
+avatar: /images/favicon.svg
 
 # Social Accounts
-twitter: 
+twitter: https://twitter.com/tangyuse
 rss: 
-weibo: 
-instagram: 
-github: 
+weibo: https://weibo.com/u/5410882330
+instagram: https://www.instagram.com/tangsenyu0915/
+github: https://github.com/EthanTYS
 facebook: 
 
 # Comment
 duoshuo: 
-disqus: 
+disqus: ooooshino
 gentie: 
 # Valine comments https://valine.js.org
 valine:

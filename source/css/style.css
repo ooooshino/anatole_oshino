@@ -124,33 +124,6 @@ a:active {
   border-bottom: 1px solid #5a5a5a;
 }
 
-.page-top .information {
-  float: right;
-  padding-top: 12px;
-  padding-right: 20px;
-}
-
-.page-top .information .avatar {
-  float: right;
-}
-
-.page-top .information .avatar img {
-  width: 32px;
-  height: 32px;
-  border-radius: 300px;
-}
-
-.page-top .information .back_btn {
-  float: left;
-  padding-top: 5px;
-  margin-right: -10px;
-}
-
-.page-top .information .back_btn li {
-  display: initial;
-  padding-right: 40px;
-}
-
 .sidebar {
   width: 40%;
   background-size: cover;

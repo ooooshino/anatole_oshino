@@ -19,13 +19,4 @@
       if is_current('links')
         a.current(href="/links")= __('Links')					
       else
-        a(href="/links")= __('Links')		
-  //- .information
-  //-   .back_btn
-  //-     li
-  //-       if is_post()
-  //-         a.fa.fa-chevron-left(onclick="window.history.go(-1)") 
-  //-       else
-  //-         a.fa.fa-chevron-left(onclick="window.history.go(-1)",style="display:none;") 
-  //-   .avatar
-  //-     img(src=theme.avatar)
+        a(href="/links")= __('Links')
