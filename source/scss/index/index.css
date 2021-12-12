@@ -54,55 +54,49 @@
   position: fixed;
   z-index: 4;
   border-right: 1px solid #f2f2f2;
+  padding: 2.4em;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
 }
 
 .sidebar .logo-title {
   text-align: center;
-  padding-top: 240px;
+  padding-top: 160px;
 }
 
-.sidebar .logo-title .description {
-  text-align: left;
-  font-size: 14px;
-  margin-left: 3.2rem;
-  color: #565654;
-}
-
-.sidebar .logo-title .logo {
-  margin: 0 auto;
-}
-
+.sidebar .logo-title .description,
 .sidebar .logo-title .title h3 {
   text-transform: uppercase;
-  font-size: 2rem;
-  font-weight: bold;
+  text-align: left;
   letter-spacing: 2px;
   line-height: 1.7;
+  padding: 0.6rem 0;
   margin: 0;
 }
 
-.sidebar .logo-title .title a {
-  text-decoration: none;
+.sidebar .logo-title .description span {
+  font-weight: 400;
+  color: #333;
+}
+
+.sidebar .logo-title .title h3 {
+  text-indent: 2em;
+  font-weight: 300;
   color: #464646;
-  font-size: 1.6rem;
-  text-align: left;
-  font-weight: bold;
+  font-size: 1rem;
 }
 
 .sidebar .social-links {
   list-style: none;
+  display: flow-root;
   padding: 0;
-  font-size: 14px;
-  text-align: center;
-}
-
-.sidebar .social-links i {
-  margin-right: 3px;
+  margin: .8em 0;
+  font-size: 1.1em;
 }
 
 .sidebar .social-links li {
   display: inline;
-  padding: 0 4px;
+  margin: 8px;
   line-height: 0;
 }
 
