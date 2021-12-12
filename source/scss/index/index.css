@@ -95,7 +95,7 @@
   list-style: none;
   display: flow-root;
   padding: 0;
-  margin: .4em 0;
+  margin: 0.4em 0;
   font-size: 1.1em;
 }
 
@@ -274,15 +274,27 @@
   border-bottom: 1px solid #f2f2f2;
 }
 
+.banner {
+  z-index: -1;
+}
+
+.banner img {
+  z-index: inherit;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+}
+
 .footer {
   clear: both;
-  text-align: center;
   font-size: 10px;
   margin: 0 auto;
   bottom: 0;
   position: absolute;
   width: 100%;
   padding-bottom: 20px;
+  color: #a6a6a6;
+  line-height: 2em;
 }
 
 .footer a {
