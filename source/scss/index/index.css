@@ -54,14 +54,18 @@
   position: fixed;
   z-index: 4;
   border-right: 1px solid #f2f2f2;
-  padding: 2.4em;
+  padding: 3.2em;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
 }
 
 .sidebar .logo-title {
   text-align: center;
-  padding-top: 160px;
+  padding-top: 100px;
+}
+
+.sidebar .logo-title img {
+  margin-bottom: 2em;
 }
 
 .sidebar .logo-title .description,
@@ -87,10 +91,11 @@
 }
 
 .sidebar .social-links {
+  float: left;
   list-style: none;
   display: flow-root;
   padding: 0;
-  margin: .8em 0;
+  margin: .4em 0;
   font-size: 1.1em;
 }
 
