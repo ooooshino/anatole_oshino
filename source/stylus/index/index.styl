@@ -1,0 +1,201 @@
+.sidebar
+  width 40%
+  -webkit-background-size cover
+  background-size cover
+  background-color #fff
+  height 100%
+  transition 0.8s
+  top 0
+  left 0
+  position fixed
+  z-index 4
+  border-right 1px solid #f2f2f2
+  padding 3.2em
+  box-sizing border-box
+  .logo-title
+    text-align center
+    padding-top 100px
+    img
+      margin-bottom 2em
+    .description
+      span
+        font-weight 400
+        color #333
+    .title
+      h3
+        text-indent 2em
+        font-weight 300
+        color #464646
+        font-size 1rem
+  .social-links
+    float left
+    list-style none
+    display flow-root
+    padding 0
+    margin 0.4em 0
+    font-size 1.1em
+    li
+      display inline
+      margin 8px
+      line-height 0
+    a
+      color #565654
+      &:hover
+        color #4786d6
+
+.sidebar .logo-title .description,
+.sidebar .logo-title .title h3
+  text-transform uppercase
+  text-align left
+  letter-spacing 2px
+  line-height 1.7
+  padding 0.6rem 0
+  margin 0
+
+.content
+  height auto
+  float right
+  width 60%
+  margin-top 80px
+
+.page-top
+  width 60%
+  position fixed
+  right 0
+  z-index 3
+  height 65px
+  line-height 65px
+  border-bottom 1px solid #f2f2f2
+  background-color white
+  .nav
+    list-style none
+    float left
+    font-size 18px
+    letter-spacing 0.8px
+    li
+      position relative
+      display initial
+      padding 2rem
+    a
+      color #5a5a5a
+      &:hover
+        color #4786d6
+      &.current
+        color #5a5a5a
+        padding-bottom 20px
+        border-bottom 1px solid #5a5a5a
+
+.post
+  background-color #fff
+  margin 30px
+  .post-title
+    h3
+      line-height 1
+      letter-spacing 1px
+      text-transform uppercase
+      font-weight 500
+      color #464646
+      font-size 22px
+      margin-bottom 26px
+    a
+      color #5f5f5f
+      &:hover
+        border-bottom 1px solid #333
+  .post-content
+    a
+      text-decoration none
+      letter-spacing 1px
+      color #4786d6
+      &:hover
+        color #2f69b3
+    h3
+      color #5f5f5f
+      font-size 22px
+      font-weight 600
+    h4
+      color #5f5f5f
+      font-size 16px
+  .post-footer
+    padding 0 0 22px 0
+    border-bottom 1px solid #f2f2f2
+    .meta
+      max-width 100%
+      height 25px
+      color #bbbbbb
+      .info
+        float left
+        font-size 12px
+        .date
+          margin-right 10px
+      a
+        text-decoration none
+        color #bbbbbb
+        padding-right 10px
+        &:hover
+          color #4786d6
+      i
+        margin 0 10px
+    .tags
+      padding-bottom 15px
+      font-size 13px
+      ul
+        list-style-type none
+        display inline
+        margin 0
+        padding 0
+        li
+          list-style-type none
+          margin 0
+          padding-right 5px
+          display inline
+      a
+        text-decoration none
+        color rgba(0, 0, 0, 0.44)
+        font-weight 400
+        &:hover
+          text-decoration none
+
+.pagination
+  margin 30px
+  padding 0px 0 56px 0
+  border-bottom 1px solid #f2f2f2
+  ul
+    list-style none
+    margin 0
+    padding 0
+    height 13px
+    li
+      margin 0 2px 0 2px
+      display inline
+      line-height 1
+      a
+        text-decoration none
+  .pre
+    float left
+  .next
+    float right
+
+#disqus_thread
+  margin 30px
+  border-bottom 1px solid #f2f2f2
+
+.banner
+  z-index -1
+  width 100%
+  height 300px
+  background-color #2f69b3
+
+.footer
+  clear both
+  font-size 10px
+  margin 0 auto
+  bottom 0
+  position absolute
+  width 100%
+  padding-bottom 20px
+  color #a6a6a6
+  line-height 2em
+  a
+    color #a6a6a6
+    &:hover
+      color #4786d6

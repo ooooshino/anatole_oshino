@@ -1,20 +1,20 @@
 @charset "UTF-8";
 /* basic styles */
-@import url("../scss/base/base.css");
+@import url("../stylus/base/base.css");
 /* index */
-@import url("../scss/index/index.css");
+@import url("../stylus/index/index.css");
 /* achivce */
-@import url("../scss/archive/archive.css");
+@import url("../stylus/archive/archive.css");
 /* about */
-@import url("../scss/about/about.css");
+@import url("../stylus/about/about.css");
 /* share */
-@import url("../scss/share/share.css");
+@import url("../stylus/share/share.css");
 /* button */
-@import url("../scss/button/button.css");
+@import url("../stylus/button/button.css");
 /* menu */
-@import url("../scss/menu/menu.css");
+@import url("../stylus/menu/menu.css");
 /* 响应式 */
-@import url("../scss/flexble/flexble.css");
+@import url("../stylus/flexble/flexble.css");
 /* links*/
 .links {
   margin: 30px;
