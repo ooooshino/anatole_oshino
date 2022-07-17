@@ -81,3 +81,4 @@ window.addEventListener("mousemove", (e) =>
   mouse.x = e.clientX - wnidowHalfX;
   mouse.y = -e.clientY - windowHalfY;
 });
+
