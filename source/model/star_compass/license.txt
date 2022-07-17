@@ -1,0 +1,11 @@
+Model Information:
+* title:	Star Compass
+* source:	https://sketchfab.com/3d-models/star-compass-218351bf53c14687aadf6be7e468fe40
+* author:	RuyOmega (https://sketchfab.com/sgtgogui)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "Star Compass" (https://sketchfab.com/3d-models/star-compass-218351bf53c14687aadf6be7e468fe40) by RuyOmega (https://sketchfab.com/sgtgogui) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
